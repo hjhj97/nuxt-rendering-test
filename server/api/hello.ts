@@ -1,3 +1,3 @@
 export default defineEventHandler((event) => {
-  return new Date().toLocaleString();
+  return new Date().toUTCString();
 });

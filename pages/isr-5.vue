@@ -2,7 +2,7 @@
   <div>
     <h1>ISR - 5 sec</h1>
     <p>Rendered Time {{ data }}</p>
-    <p>Hydration Time : {{ new Date().toLocaleString() }}</p>
+    <p>Hydration Time : {{ new Date().toUTCString() }}</p>
   </div>
 </template>
 

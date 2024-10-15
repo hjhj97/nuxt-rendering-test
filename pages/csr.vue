@@ -2,7 +2,7 @@
   <div>
     <h1>CSR</h1>
     <p>Rendered Time {{ data }}</p>
-    <p>Hydration Time : {{ new Date().toLocaleString() }}</p>
+    <p>Hydration Time : {{ new Date().toUTCString() }}</p>
   </div>
 </template>
 
